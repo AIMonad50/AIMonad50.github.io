@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>のび〜るだし巻かず玉子｜やまと屋 旬メシハック</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:-apple-system,BlinkMacSystemFont,'Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;background:#fafaf8;color:#333;}
+.page{max-width:480px;margin:0 auto;padding-bottom:3rem;}
+.hero{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:0 0 16px 16px;display:block;}
+.content{padding:0 1.25rem;}
+.tags{display:flex;gap:8px;margin-top:1.25rem;flex-wrap:wrap;}
+.tag{font-size:11px;padding:3px 12px;border-radius:20px;font-weight:500;}
+.tag-orange{background:#fff3e0;color:#a0522d;border:0.5px solid #e0a060;}
+.tag-green{background:#e8f5e9;color:#2e7d32;border:0.5px solid #a5d6a7;}
+.recipe-title{font-size:20px;font-weight:600;margin-top:1rem;line-height:1.4;color:#222;}
+.subtitle{font-size:13px;color:#888;margin-top:4px;}
+.hook{margin:1rem 0;padding:.875rem 1rem;background:#fffbf5;border-left:3px solid #e8a040;border-radius:0 8px 8px 0;}
+.hook p{font-size:14px;line-height:1.6;color:#555;}
+.meta-row{display:flex;gap:10px;margin:1rem 0;}
+.meta-item{flex:1;background:#f5f3ee;border-radius:8px;padding:.75rem;text-align:center;}
+.meta-label{font-size:11px;color:#888;display:block;margin-bottom:2px;}
+.meta-value{font-size:15px;font-weight:600;color:#444;}
+.section-title{font-size:12px;font-weight:600;color:#888;letter-spacing:.08em;text-transform:uppercase;margin:1.5rem 0 .75rem;border-bottom:1px solid #eee;padding-bottom:6px;}
+.ingredient-list{list-style:none;}
+.ingredient-list li{display:flex;justify-content:space-between;align-items:center;padding:9px 0;border-bottom:1px solid #f0f0f0;font-size:14px;}
+.ingredient-list li:last-child{border-bottom:none;}
+.ing-name{color:#333;}
+.ing-amount{color:#888;font-weight:500;}
+.step-list{list-style:none;display:flex;flex-direction:column;gap:14px;}
+.step-item{display:flex;gap:12px;align-items:flex-start;}
+.step-num{width:26px;height:26px;min-width:26px;border-radius:50%;background:#e8a040;color:#fff;font-size:13px;font-weight:600;display:flex;align-items:center;justify-content:center;margin-top:1px;}
+.step-body{flex:1;}
+.step-heading{font-size:14px;font-weight:600;color:#333;margin-bottom:4px;}
+.step-text{font-size:13px;color:#666;line-height:1.7;}
+.point-box{margin:1.5rem 0;padding:1rem;background:#fffbf5;border:1px solid #f0d090;border-radius:12px;}
+.point-title{font-size:13px;font-weight:600;color:#a06020;margin-bottom:6px;}
+.point-text{font-size:13px;color:#666;line-height:1.7;}
+.brand-footer{margin:2rem 1.25rem 0;padding:1rem 1.25rem;border:1px solid #eee;border-radius:12px;display:flex;align-items:center;justify-content:space-between;background:#fff;}
+.brand-name{font-size:16px;font-weight:700;color:#333;}
+.brand-sub{font-size:11px;color:#888;margin-top:2px;}
+.more-btn{font-size:12px;color:#a06020;border:1px solid #e8c080;background:#fffbf5;padding:8px 16px;border-radius:20px;text-decoration:none;white-space:nowrap;}
+</style>
+</head>
+<body>
+<div class="page">
+  <img class="hero" src="tamagoyaki.jpg" alt="のび〜るだし巻かず玉子">
+  <div class="content">
+    <div class="tags">
+      <span class="tag tag-orange">爆速旬ハック</span>
+      <span class="tag tag-green">悪魔のおつまみ</span>
+    </div>
+    <h1 class="recipe-title">のび〜るだし巻かず玉子</h1>
+    <p class="subtitle">やまと屋・爆速旬ハック｜5分飯</p>
+    <div class="hook">
+      <p>💡 いま、だし巻き卵は「巻かない」のが正解。</p>
+    </div>
+    <div class="meta-row">
+      <div class="meta-item"><span class="meta-label">調理時間</span><span class="meta-value">5分</span></div>
+      <div class="meta-item"><span class="meta-label">難易度</span><span class="meta-value">★☆☆</span></div>
+      <div class="meta-item"><span class="meta-label">人数</span><span class="meta-value">1人分</span></div>
+    </div>
+    <p class="section-title">材料</p>
+    <ul class="ingredient-list">
+      <li><span class="ing-name">絹豆腐</span><span class="ing-amount">75g</span></li>
+      <li><span class="ing-name">卵</span><span class="ing-amount">2個</span></li>
+      <li><span class="ing-name">白だし</span><span class="ing-amount">15g</span></li>
+      <li><span class="ing-name">水</span><span class="ing-amount">30g</span></li>
+      <li><span class="ing-name">とろけるチーズ</span><span class="ing-amount">お好みで</span></li>
+      <li><span class="ing-name">オリーブオイル・パセリ・ネギ</span><span class="ing-amount">各お好みで</span></li>
+    </ul>
+    <p class="section-title">作り方</p>
+    <ol class="step-list">
+      <li class="step-item">
+        <span class="step-num">1</span>
+        <div class="step-body">
+          <p class="step-heading">混ぜる（実体の融合）</p>
+          <p class="step-text">ボウルで絹豆腐、卵、白だし、水を全体がとろとろの滑らかな状態になるまでしっかり混ぜ合わせます。</p>
+        </div>
+      </li>
+      <li class="step-item">
+        <span class="step-num">2</span>
+        <div class="step-body">
+          <p class="step-heading">流す・入れる（核心の設置）</p>
+          <p class="step-text">耐熱容器にラップを長めに敷き、液を流し込みます。中央にチーズをのせ、少し押し込むのが「のび〜る」秘訣です。</p>
+        </div>
+      </li>
+      <li class="step-item">
+        <span class="step-num">3</span>
+        <div class="step-body">
+          <p class="step-heading">加熱・仕上げ（成功の瞬間）</p>
+          <p class="step-text">ラップをふんわりかけ、電子レンジ500Wで4分20秒加熱。器にひっくり返して盛り付け、トッピングを振れば完成！</p>
+        </div>
+      </li>
+    </ol>
+    <div class="point-box">
+      <p class="point-title">⭐ ドーパミン・ポイント</p>
+      <p class="point-text">耐熱容器にラップを敷くことで、加熱後にぷるふわとした綺麗な「おまんじゅう型」に成形しやすくなります。中からチーズがとろっと出てくる小さな成功体験が、今夜のお酒を加速させます。</p>
+    </div>
+  </div>
+  <div class="brand-footer">
+    <div>
+      <p class="brand-name">やまと屋</p>
+      <p class="brand-sub">愛の「旬メシ」ハック｜レシピ更新中</p>
+    </div>
+    <a class="more-btn" href="index.html">他のレシピも見る →</a>
+  </div>
+</div>
+</body>
+</html>
