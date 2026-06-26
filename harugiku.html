@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>春菊と生ハムのカリカリチーズ｜やまと屋 旬メシハック</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:-apple-system,BlinkMacSystemFont,'Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;background:#fafaf8;color:#333;}
+.page{max-width:480px;margin:0 auto;padding-bottom:3rem;}
+.hero{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:0 0 16px 16px;display:block;}
+.content{padding:0 1.25rem;}
+.tags{display:flex;gap:8px;margin-top:1.25rem;flex-wrap:wrap;}
+.tag{font-size:11px;padding:3px 12px;border-radius:20px;font-weight:500;}
+.tag-orange{background:#fff3e0;color:#a0522d;border:0.5px solid #e0a060;}
+.tag-green{background:#e8f5e9;color:#2e7d32;border:0.5px solid #a5d6a7;}
+.recipe-title{font-size:20px;font-weight:600;margin-top:1rem;line-height:1.4;color:#222;}
+.subtitle{font-size:13px;color:#888;margin-top:4px;}
+.hook{margin:1rem 0;padding:.875rem 1rem;background:#fffbf5;border-left:3px solid #e8a040;border-radius:0 8px 8px 0;}
+.hook p{font-size:14px;line-height:1.6;color:#555;}
+.meta-row{display:flex;gap:10px;margin:1rem 0;}
+.meta-item{flex:1;background:#f5f3ee;border-radius:8px;padding:.75rem;text-align:center;}
+.meta-label{font-size:11px;color:#888;display:block;margin-bottom:2px;}
+.meta-value{font-size:15px;font-weight:600;color:#444;}
+.section-title{font-size:12px;font-weight:600;color:#888;letter-spacing:.08em;text-transform:uppercase;margin:1.5rem 0 .75rem;border-bottom:1px solid #eee;padding-bottom:6px;}
+.ingredient-list{list-style:none;}
+.ingredient-list li{display:flex;justify-content:space-between;align-items:center;padding:9px 0;border-bottom:1px solid #f0f0f0;font-size:14px;}
+.ingredient-list li:last-child{border-bottom:none;}
+.ing-name{color:#333;}
+.ing-amount{color:#888;font-weight:500;}
+.step-list{list-style:none;display:flex;flex-direction:column;gap:14px;}
+.step-item{display:flex;gap:12px;align-items:flex-start;}
+.step-num{width:26px;height:26px;min-width:26px;border-radius:50%;background:#e8a040;color:#fff;font-size:13px;font-weight:600;display:flex;align-items:center;justify-content:center;margin-top:1px;}
+.step-body{flex:1;}
+.step-heading{font-size:14px;font-weight:600;color:#333;margin-bottom:4px;}
+.step-text{font-size:13px;color:#666;line-height:1.7;}
+.point-box{margin:1.5rem 0;padding:1rem;background:#fffbf5;border:1px solid #f0d090;border-radius:12px;}
+.point-title{font-size:13px;font-weight:600;color:#a06020;margin-bottom:6px;}
+.point-text{font-size:13px;color:#666;line-height:1.7;}
+.invite-box{margin:1.5rem 0;padding:1rem 1.25rem;background:#f5f0ff;border:1px solid #d0b0ff;border-radius:12px;}
+.invite-title{font-size:12px;font-weight:600;color:#7040a0;margin-bottom:6px;letter-spacing:.05em;}
+.invite-text{font-size:13px;color:#555;line-height:1.7;}
+.brand-footer{margin:2rem 1.25rem 0;padding:1rem 1.25rem;border:1px solid #eee;border-radius:12px;display:flex;align-items:center;justify-content:space-between;background:#fff;}
+.brand-name{font-size:16px;font-weight:700;color:#333;}
+.brand-sub{font-size:11px;color:#888;margin-top:2px;}
+.more-btn{font-size:12px;color:#a06020;border:1px solid #e8c080;background:#fffbf5;padding:8px 16px;border-radius:20px;text-decoration:none;white-space:nowrap;}
+</style>
+</head>
+<body>
+<div class="page">
+  <img class="hero" src="harugiku.jpg" alt="春菊と生ハムのカリカリチーズ">
+  <div class="content">
+    <div class="tags">
+      <span class="tag tag-orange">爆速旬ハック</span>
+      <span class="tag tag-green">悪魔のおつまみ</span>
+    </div>
+    <h1 class="recipe-title">春菊と生ハムのカリカリチーズ</h1>
+    <p class="subtitle">やまと屋・爆速旬ハック｜5分飯</p>
+    <div class="hook">
+      <p>💡 春菊は、実は半生が正解。5分で家族を黙らせる、唯一無二のおつまみです。</p>
+    </div>
+    <div class="meta-row">
+      <div class="meta-item"><span class="meta-label">調理時間</span><span class="meta-value">5分</span></div>
+      <div class="meta-item"><span class="meta-label">難易度</span><span class="meta-value">★☆☆</span></div>
+      <div class="meta-item"><span class="meta-label">人数</span><span class="meta-value">2人分</span></div>
+    </div>
+    <p class="section-title">材料</p>
+    <ul class="ingredient-list">
+      <li><span class="ing-name">春菊（葉のみ）</span><span class="ing-amount">適量</span></li>
+      <li><span class="ing-name">生ハム</span><span class="ing-amount">適量</span></li>
+      <li><span class="ing-name">ピザ用チーズ</span><span class="ing-amount">ひとつかみ</span></li>
+      <li><span class="ing-name">ハチミツ</span><span class="ing-amount">仕上げ用</span></li>
+    </ul>
+    <p class="section-title">作り方</p>
+    <ol class="step-list">
+      <li class="step-item">
+        <span class="step-num">1</span>
+        <div class="step-body">
+          <p class="step-heading">チーズを焼く</p>
+          <p class="step-text">フライパンにチーズを広げ、カリカリになるまで中火で焼きます。</p>
+        </div>
+      </li>
+      <li class="step-item">
+        <span class="step-num">2</span>
+        <div class="step-body">
+          <p class="step-heading">乗せて蒸らす（半生が正解）</p>
+          <p class="step-text">チーズが固まってきたら、春菊と生ハムをドサッと乗せます。「半生」に仕上げることが香りを生かすコツです。</p>
+        </div>
+      </li>
+      <li class="step-item">
+        <span class="step-num">3</span>
+        <div class="step-body">
+          <p class="step-heading">ハチミツで仕上げ</p>
+          <p class="step-text">お皿に盛り、ハチミツを回しかけたら完成。チーズが春菊の強い香りをコーティングし、癖が旨みに変わります。</p>
+        </div>
+      </li>
+    </ol>
+    <div class="point-box">
+      <p class="point-title">⭐ ポイント</p>
+      <p class="point-text">春菊の茎は小さめに切っておくと食べやすくなります。白ワインとの相性が抜群です。</p>
+    </div>
+    <div class="invite-box">
+      <p class="invite-title">やまと屋からの招待状</p>
+      <p class="invite-text">この料理、白ワインが止まらなくなります。店では春菊の苦味に負けない、地元まこっこ農園さんのトマトとのペアリングも提案しています。正解を体験しに、また店で会いましょう。</p>
+    </div>
+  </div>
+  <div class="brand-footer">
+    <div>
+      <p class="brand-name">やまと屋</p>
+      <p class="brand-sub">愛の「旬メシ」ハック｜レシピ更新中</p>
+    </div>
+    <a class="more-btn" href="index.html">他のレシピも見る →</a>
+  </div>
+</div>
+</body>
+</html>
